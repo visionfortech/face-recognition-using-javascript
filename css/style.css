@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background: #2f2f2f;
+  width: calc(100% - 33px);
+}
+video{
+  position: absolute;
+}
+canvas {
+  position: absolute;
+}
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.result-container {
+  margin-top: 25px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.result-container > div {
+  font-size: 2.5rem;
+  padding: 1.0rem;
+  margin: 5px 0;
+  color:blue
+  text-transform: capitalize;
+}
+#age {
+  color:blue;
+  background-color: yellow;
+}
+#emotion {
+  color:blue;
+  background-color: yellow;
+}
+#gender {
+  color:blue;
+  background-color: yellow;
+}
+video {
+  width: 100%;
+}
+h2{
+  text-align: center;
+  margin-top: 10px;
+  background-color: yellow;
+  padding: 10px;
+}
+.videoContainer{
+  margin-top: -160px;
+}
